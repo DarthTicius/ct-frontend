@@ -1,4 +1,5 @@
-/** @type {import('next').NextConfig} */
 module.exports = {
-  reactStrictMode: true,
-}
+	images: {
+		domains: ['clt-live.s3-eu-west-1.amazonaws.com'],
+	},
+};

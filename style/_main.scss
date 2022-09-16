@@ -1,0 +1,22 @@
+body {
+    @apply bg-gray-400;
+}
+
+.slick-prev,
+.slick-next {
+    @apply z-[3] bg-black rounded-full border-white w-6 h-6 p-1;
+}
+.slick-prev {
+    @apply left-8;
+    @apply text-white;
+    &:before {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='white' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M15 19l-7-7 7-7' /%3E%3C/svg%3E%0A");
+    }
+}
+.slick-next {
+    @apply right-8;
+    @apply text-white;
+    &:before {
+        content: url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' class='h-6 w-6' fill='none' viewBox='0 0 24 24' stroke='white' stroke-width='2'%3E%3Cpath stroke-linecap='round' stroke-linejoin='round' d='M9 5l7 7-7 7' /%3E%3C/svg%3E%0A");
+    }
+}
