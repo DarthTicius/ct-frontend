@@ -1,7 +1,6 @@
 import React, { useState } from 'react';
 
 function Description({ description }) {
-	console.log(description);
 	return (
 		<>
 			{description && (

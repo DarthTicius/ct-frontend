@@ -1,7 +1,6 @@
 import React from 'react';
 
 function Details({ passedData }) {
-	console.log(passedData.car);
 	return (
 		<div>
 			<div className="bg-white">

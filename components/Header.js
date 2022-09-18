@@ -120,7 +120,6 @@ const navigation = {
 	],
 };
 const Header = ({ userisloggedin }) => {
-	// console.log(userisloggedin);
 	const [open, setOpen] = useState(false);
 
 	return (
@@ -398,6 +397,7 @@ const Header = ({ userisloggedin }) => {
 									))}
 								</div>
 							</Popover.Group>
+
 							{/* Logo */}
 							<div className="ml-4 flex lg:ml-auto">
 								<a href="#">

@@ -22,7 +22,7 @@ const Gallery = ({ galleryImages }) => {
 		setNav1(slider1);
 		setNav2(slider2);
 	}, [slider1, slider2]);
-	// console.log('images', images);
+
 	return (
 		<>
 			<div className=" block w-full max-w-full">
